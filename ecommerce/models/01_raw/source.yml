@@ -1,0 +1,16 @@
+# models/raw/source.yml
+
+version: 2
+
+sources:
+  - name: ecommerce
+    database: raw
+    schema: oltp
+    tables:
+      - name: client
+      - name: client_status
+      - name: client_type
+      - name: orders
+      - name: product
+      - name: order_product
+      - name: payment_method
